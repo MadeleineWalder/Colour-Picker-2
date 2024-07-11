@@ -10,7 +10,6 @@ const ColourPicker: React.FC = () => {
 
     return(
         <div className="color-picker-container">
-            <h1>Color Picker</h1>
             <div className="color-display" style={{ backgroundColor: color }}>
                 <p>{color}</p>
             </div>
