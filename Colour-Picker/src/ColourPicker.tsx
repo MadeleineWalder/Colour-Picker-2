@@ -12,7 +12,7 @@ const ColourPicker: React.FC = () => {
         <div className="color-picker-container">
             <h1>Color Picker</h1>
             <div className="color-display" style={{ backgroundColor: color }}>
-                <p>Selected Color: {color}</p>
+                <p>{color}</p>
             </div>
             <label>Select a Color:</label>
             <input type="color" value={color} onChange={handleColorChange}/>

@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.color-picker-countainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.color-display {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid hsl(0, 0%, 80%);
+    border-radius: 25px;
+    margin-bottom: 25px;
+    transition: 0.25s ease;
+}
+  
+.color-display p {
+    color: hsl(0, 0%, 20%);
+    font-size: 2rem;
+    text-align: center;
+}
