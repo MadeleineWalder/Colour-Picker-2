@@ -6,6 +6,11 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.title {
+    display: flex;
+    justify-content: center;
+}
   
 .color-picker-countainer {
     display: flex;

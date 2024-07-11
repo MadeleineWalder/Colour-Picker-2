@@ -2,7 +2,7 @@
 const Title: React.FC = () => {
 
     return(
-        <h1>Colour Picker</h1>
+        <h1 className="title">Colour Picker</h1>
     );
 };
 
