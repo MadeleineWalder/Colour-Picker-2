@@ -1,4 +1,3 @@
-import './App.css'
 import ColourPicker from './ColourPicker'
 
 function App() {
